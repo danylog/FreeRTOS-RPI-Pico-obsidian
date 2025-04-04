@@ -1,0 +1,5 @@
+- [[Tasks]]
+- [[Semaphores]]
+- [[Queues]]
+- [[Message buffers]]
+- [[Symmetric multiprocessing]]
