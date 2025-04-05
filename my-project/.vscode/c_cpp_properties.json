@@ -1,0 +1,42 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "~/pico/pico-sdk/src/common/pico_stdlib_headers/include/",
+                "~/pico/pico-sdk/src/boards/include/boards/",
+                "~/pico/pico-sdk/src/**/**/**",
+                "~/pico/pico-sdk/src/rp2_common/hardware_gpio/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_pwm/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_spi/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_uart/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_watchdog/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_i2c/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_adc/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_timer/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_clocks/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_resets/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_divider/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_irq/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_sync/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_flash/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_dma/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_clocks/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_resets/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_divider/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_irq/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_sync/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_flash/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_dma/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_uart/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_i2c/include/",
+                "~/pico/pico-sdk/src/rp2_common/hardware_pwm/include/"
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

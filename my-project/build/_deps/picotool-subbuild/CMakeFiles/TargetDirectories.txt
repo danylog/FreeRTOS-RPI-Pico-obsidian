@@ -1,0 +1,3 @@
+/Users/danylo/Desktop/my-project/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/Users/danylo/Desktop/my-project/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/Users/danylo/Desktop/my-project/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir

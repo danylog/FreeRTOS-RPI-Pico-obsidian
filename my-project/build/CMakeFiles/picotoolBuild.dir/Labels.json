@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/CMakeFiles/picotoolBuild"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/CMakeFiles/picotoolBuild.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/CMakeFiles/picotoolBuild-complete.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+		},
+		{
+			"file" : "/Users/danylo/Desktop/my-project/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotoolBuild"
+		],
+		"name" : "picotoolBuild"
+	}
+}
