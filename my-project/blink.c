@@ -5,6 +5,7 @@
  */
 
 #include "pico/stdlib.h"
+#include "pico/stdio_usb.h"
 
 #define true 1
 #define false 0
@@ -52,6 +53,8 @@ void pico_set_led(bool led_on)
 
 int main()
 {
+    stdio_init_all();
+    stdio_usb_init();
     int rc = pico_led_init();
     hard_assert(rc == PICO_OK);
     while (true)

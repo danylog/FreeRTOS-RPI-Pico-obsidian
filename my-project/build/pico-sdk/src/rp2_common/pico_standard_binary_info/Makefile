@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danylo/Desktop/my-project
+CMAKE_SOURCE_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danylo/Desktop/my-project/build
+CMAKE_BINARY_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/danylo/Desktop/my-project/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/my-project/build/CMakeFiles /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_standard_binary_info//CMakeFiles/progress.marks
-	cd /Users/danylo/Desktop/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/my-project/build/CMakeFiles 0
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_standard_binary_info//CMakeFiles/progress.marks
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/danylo/Desktop/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/clean
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,17 +103,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/danylo/Desktop/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/preinstall
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/danylo/Desktop/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/preinstall
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/pico_standard_binary_info/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/danylo/Desktop/my-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -135,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/danylo/Desktop/my-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

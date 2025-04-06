@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danylo/Desktop/my-project
+CMAKE_SOURCE_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danylo/Desktop/my-project/build
+CMAKE_BINARY_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/progress.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/bs2_default.bin: pico-sdk/src/rp2040/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2040/boot_stage2 && /usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2040/boot_stage2 && /usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.elf /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/codegen
@@ -85,10 +85,10 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_defaul
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2040/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/danylo/Desktop/my-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danylo/Desktop/my-project /Users/danylo/pico/pico-sdk/src/rp2040/boot_stage2 /Users/danylo/Desktop/my-project/build /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2040/boot_stage2 /Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project /Users/danylo/pico/pico-sdk/src/rp2040/boot_stage2 /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2040/boot_stage2 /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

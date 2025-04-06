@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danylo/Desktop/my-project
+CMAKE_SOURCE_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danylo/Desktop/my-project/build
+CMAKE_BINARY_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/blink.dir/depend.make
@@ -73,23 +73,23 @@ CMakeFiles/blink.dir/codegen:
 .PHONY : CMakeFiles/blink.dir/codegen
 
 CMakeFiles/blink.dir/blink.c.o: CMakeFiles/blink.dir/flags.make
-CMakeFiles/blink.dir/blink.c.o: /Users/danylo/Desktop/my-project/blink.c
+CMakeFiles/blink.dir/blink.c.o: /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c
 CMakeFiles/blink.dir/blink.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blink.dir/blink.c.o"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/blink.c.o -MF CMakeFiles/blink.dir/blink.c.o.d -o CMakeFiles/blink.dir/blink.c.o -c /Users/danylo/Desktop/my-project/blink.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/blink.dir/blink.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/blink.c.o -MF CMakeFiles/blink.dir/blink.c.o.d -o CMakeFiles/blink.dir/blink.c.o -c /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c
 
 CMakeFiles/blink.dir/blink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/blink.c.i"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/Desktop/my-project/blink.c > CMakeFiles/blink.dir/blink.c.i
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c > CMakeFiles/blink.dir/blink.c.i
 
 CMakeFiles/blink.dir/blink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/blink.c.s"
-	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/Desktop/my-project/blink.c -o CMakeFiles/blink.dir/blink.c.s
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c -o CMakeFiles/blink.dir/blink.c.s
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -103,7 +103,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdli
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -117,7 +117,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpi
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: /Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -131,7 +131,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platfor
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -145,7 +145,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_pan
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o: /Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o -c /Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -159,7 +159,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -173,7 +173,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/syn
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -187,7 +187,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spi
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -200,7 +200,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -214,7 +214,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq_
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -228,7 +228,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.s: cm
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -242,7 +242,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -256,7 +256,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.s: 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -270,7 +270,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_se
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -284,7 +284,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.s: c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -298,7 +298,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_hel
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -312,7 +312,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/ti
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -326,7 +326,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -340,7 +340,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.s: 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o: /Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o -c /Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -354,7 +354,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.s: 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -368,7 +368,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uar
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -382,7 +382,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -396,7 +396,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -410,7 +410,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vre
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -424,7 +424,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -438,7 +438,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ti
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -452,7 +452,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/boot
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -466,7 +466,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/boot
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -480,7 +480,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_loc
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -494,7 +494,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -507,7 +507,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xos
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -521,7 +521,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -535,7 +535,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runt
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -549,7 +549,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -563,7 +563,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -576,7 +576,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -589,7 +589,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -602,7 +602,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_divider/divi
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -616,7 +616,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -630,7 +630,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -643,7 +643,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -656,7 +656,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -669,7 +669,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_int64_ops/pi
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -683,7 +683,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -697,7 +697,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -710,7 +710,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -724,7 +724,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -737,7 +737,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/mallo
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -751,7 +751,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -765,7 +765,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomi
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/usr/local/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -779,7 +779,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -793,7 +793,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_bin
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -806,7 +806,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/print
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -820,7 +820,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -834,7 +834,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interfa
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -848,7 +848,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/blink.dir/flags.make
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -858,6 +858,356 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/s
 CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/blink.dir/flags.make
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o: CMakeFiles/blink.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -MF CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o.d -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o -c /Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c > CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c -o CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 # Object files for target blink
 blink_OBJECTS = \
@@ -917,7 +1267,32 @@ blink_OBJECTS = \
 "CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o" \
 "CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o" \
 "CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o" \
-"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o" \
+"CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o"
 
 # External object files for target blink
 blink_EXTERNAL_OBJECTS =
@@ -979,17 +1354,42 @@ blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_c
 blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o
 blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
 blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+blink.elf: CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
 blink.elf: CMakeFiles/blink.dir/build.make
 blink.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 blink.elf: /Users/danylo/pico/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 blink.elf: CMakeFiles/blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/danylo/Desktop/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking CXX executable blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/blink.dir/link.txt --verbose=$(VERBOSE)
-	/usr/local/bin/arm-none-eabi-objdump -h /Users/danylo/Desktop/my-project/build/blink.elf > blink.dis
-	/usr/local/bin/arm-none-eabi-objdump -d /Users/danylo/Desktop/my-project/build/blink.elf >> blink.dis
-	/usr/local/bin/arm-none-eabi-objcopy -Oihex /Users/danylo/Desktop/my-project/build/blink.elf blink.hex
-	/usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/danylo/Desktop/my-project/build/blink.elf blink.bin
-	_deps/picotool/picotool uf2 convert --quiet /Users/danylo/Desktop/my-project/build/blink.elf blink.uf2 --family rp2040
+	/usr/local/bin/arm-none-eabi-objdump -h /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/blink.elf > blink.dis
+	/usr/local/bin/arm-none-eabi-objdump -d /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/blink.elf >> blink.dis
+	/usr/local/bin/arm-none-eabi-objcopy -Oihex /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/blink.elf blink.hex
+	/usr/local/bin/arm-none-eabi-objcopy -Obinary /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/blink.elf blink.bin
+	/usr/local/bin/picotool uf2 convert --quiet /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/blink.elf blink.uf2 --family rp2040
 
 # Rule to build all files generated by this target.
 CMakeFiles/blink.dir/build: blink.elf
@@ -1000,6 +1400,6 @@ CMakeFiles/blink.dir/clean:
 .PHONY : CMakeFiles/blink.dir/clean
 
 CMakeFiles/blink.dir/depend:
-	cd /Users/danylo/Desktop/my-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danylo/Desktop/my-project /Users/danylo/Desktop/my-project /Users/danylo/Desktop/my-project/build /Users/danylo/Desktop/my-project/build /Users/danylo/Desktop/my-project/build/CMakeFiles/blink.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles/blink.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/blink.dir/depend
 

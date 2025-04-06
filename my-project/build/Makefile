@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/danylo/Desktop/my-project
+CMAKE_SOURCE_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/danylo/Desktop/my-project/build
+CMAKE_BINARY_DIR = /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/my-project/build/CMakeFiles /Users/danylo/Desktop/my-project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/my-project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -193,6 +193,438 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build.make pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.o: Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+.PHONY : Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
 Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.o: Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.c.o
 .PHONY : Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.o
@@ -514,6 +946,30 @@ Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
 
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+
 Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
 
@@ -762,6 +1218,30 @@ Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.s
+
 Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
 
@@ -993,6 +1473,30 @@ Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.
 Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
 Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.c.o
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.o
@@ -1338,6 +1842,78 @@ Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+
 Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
 
@@ -1361,6 +1937,30 @@ Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/danylo/pic
 Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+
+# target to build an object file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
+
+# target to preprocess a source file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s
+
+# target to generate assembly for a file
+Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/blink.dir/build.make CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+.PHONY : Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 
 blink.o: blink.c.o
 .PHONY : blink.o
@@ -1400,6 +2000,60 @@ help:
 	@echo "... blink"
 	@echo "... bs2_default"
 	@echo "... bs2_default_library"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.i"
+	@echo "... Users/danylo/pico/pico-sdk/lib/tinyusb/src/tusb.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.s"
@@ -1440,6 +2094,9 @@ help:
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
@@ -1471,6 +2128,9 @@ help:
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
@@ -1500,6 +2160,9 @@ help:
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.s"
@@ -1543,9 +2206,21 @@ help:
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
+	@echo "... Users/danylo/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
 	@echo "... blink.o"
 	@echo "... blink.i"
 	@echo "... blink.s"

@@ -1,3 +1,7 @@
 {
-    "C_Cpp.default.compilerPath": "/usr/local/bin/arm-none-eabi-gcc"
+    "C_Cpp.default.compilerPath": "/usr/local/bin/arm-none-eabi-gcc",
+    "files.associations": {
+        "PICO_SDK_PATH": "/Users/danylo/pico/pico-sdk",
+        "stdio_usb.h": "c"
+    }
 }

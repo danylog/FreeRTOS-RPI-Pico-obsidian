@@ -2102,7 +2102,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdli
   /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
 
-CMakeFiles/blink.dir/blink.c.o: /Users/danylo/Desktop/my-project/blink.c \
+CMakeFiles/blink.dir/blink.c.o: /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
@@ -2166,7 +2166,7 @@ CMakeFiles/blink.dir/blink.c.o: /Users/danylo/Desktop/my-project/blink.c \
   /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
 
 
-/Users/danylo/Desktop/my-project/blink.c:
+/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c:
 
 /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 

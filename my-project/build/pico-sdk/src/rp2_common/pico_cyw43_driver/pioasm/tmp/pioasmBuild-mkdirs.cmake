@@ -10,18 +10,18 @@ if(NOT EXISTS "/Users/danylo/pico/pico-sdk/tools/pioasm")
   file(MAKE_DIRECTORY "/Users/danylo/pico/pico-sdk/tools/pioasm")
 endif()
 file(MAKE_DIRECTORY
-  "/Users/danylo/Desktop/my-project/build/pioasm"
-  "/Users/danylo/Desktop/my-project/build/pioasm-install"
-  "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
-  "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
-  "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
-  "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pioasm"
+  "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pioasm-install"
+  "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp"
+  "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
+  "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src"
+  "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/pioasmBuild-complete.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule"
 		},
 		{
-			"file" : "/Users/danylo/Desktop/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule"
+			"file" : "/Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule"
 		}
 	],
 	"target" : 

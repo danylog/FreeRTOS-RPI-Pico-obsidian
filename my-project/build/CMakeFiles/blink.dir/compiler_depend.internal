@@ -18,8 +18,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/hardware_claim/claim.
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
@@ -56,8 +56,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/critical_se
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -100,8 +100,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/lock_core.c
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -143,8 +143,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/mutex.c.o
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -189,8 +189,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_sync/sem.c.o
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -240,8 +240,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/time.c.o
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -303,8 +303,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_time/timeout_hel
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -367,8 +367,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/datetime.c.
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -412,8 +412,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/pheap.c.o
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -458,8 +458,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/common/pico_util/queue.c.o
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -502,8 +502,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/platfor
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -539,8 +539,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_boot_loc
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -576,8 +576,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_clocks/c
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -631,8 +631,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_gpio/gpi
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -682,8 +682,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_irq/irq.
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
@@ -735,8 +735,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_pll/pll.
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -779,8 +779,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync/syn
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
@@ -817,8 +817,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_sync_spi
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -854,8 +854,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_ticks/ti
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -893,8 +893,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_timer/ti
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/hardware_claim/include/hardware/claim.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
@@ -941,8 +941,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_uart/uar
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -990,8 +990,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_vreg/vre
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1039,8 +1039,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_watchdog
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1086,8 +1086,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/hardware_xosc/xos
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1128,8 +1128,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_atomic/atomi
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1184,8 +1184,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/boot
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/boot_picobin_headers/include/boot/picobin.h
  /Users/danylo/pico/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h
@@ -1227,8 +1227,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_bootrom/boot
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1294,8 +1294,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_clib_interfa
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1352,8 +1352,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_cxx_options/
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1394,8 +1394,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1440,8 +1440,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1476,8 +1476,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_flash/flash.
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1527,8 +1527,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1574,8 +1574,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_float/float_
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1617,8 +1617,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_malloc/mallo
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1672,8 +1672,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_platform_pan
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1715,8 +1715,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_printf/print
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1750,8 +1750,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime/runt
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1786,8 +1786,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1835,8 +1835,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1893,8 +1893,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_runtime_init
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1931,8 +1931,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_standard_bin
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -1981,8 +1981,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -2037,8 +2037,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/s
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -2101,8 +2101,8 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdli
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h
@@ -2148,7 +2148,7 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdlib/stdli
  /Users/danylo/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
 
 CMakeFiles/blink.dir/blink.c.o
- /Users/danylo/Desktop/my-project/blink.c
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/blink.c
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h
@@ -2165,8 +2165,8 @@ CMakeFiles/blink.dir/blink.c.o
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico.h
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/assert.h

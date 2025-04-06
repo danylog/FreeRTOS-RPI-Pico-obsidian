@@ -25,9 +25,9 @@ CMakeFiles/blink.dir/Users/danylo/pico/pico-sdk/src/rp2_common/pico_double/doubl
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/version.h \
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/version.h \
  /Users/danylo/pico/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
- /Users/danylo/Desktop/my-project/build/generated/pico_base/pico/config_autogen.h \
+ /Users/danylo/Desktop/FreeRTOS-RPI-Pico-obsidian/my-project/build/generated/pico_base/pico/config_autogen.h \
  /Users/danylo/pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/danylo/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/danylo/pico/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
